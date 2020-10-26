@@ -23,7 +23,7 @@ jobs:
         run: pip install -r ./requirements.txt
       - name: 'Working'
         env:
-          SECRET: ${{ secrets.SECRET }}
+          SECRET: ${{ SCU84262Tfe490245ff4811c19f76b89a6844233a5e4a14d684c60 }}
         timeout-minutes: 350
         run: |
           echo SECRET=$SECRET > .env
